@@ -1,7 +1,6 @@
 import logging
 import asyncio
 from signalwire.relay.consumer import Consumer
-from signalwire.relay.task import Task
 
 class CustomConsumer(Consumer):
     def setup(self):
