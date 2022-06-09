@@ -20,6 +20,7 @@ class CustomConsumer(Consumer):
                      "https://www.dropbox.com/s/ys2mexeh1m8dmge/piano-mp3_E4.mp3?dl=1", "https://www.dropbox.com/s/0qcrbmwde6hbyyi/piano-mp3_F4.mp3?dl=1",
                      "https://www.dropbox.com/s/ho18x3an719wpwn/piano-mp3_G4.mp3?dl=1", "https://www.dropbox.com/s/zf976io7w2c1pkd/piano-mp3_A4.mp3?dl=1",
                      "https://www.dropbox.com/s/0egjt8hv6gka7rs/piano-mp3_B4.mp3?dl=1", "https://www.dropbox.com/s/5zqr9ubjvidakk9/piano-mp3_C5.mp3?dl=1"]
+            logging.info('digit: ' + digit)
             if(digit == '#'):
                 await call.hangup()
             else:
