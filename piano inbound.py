@@ -6,8 +6,8 @@ from signalwire.relay.consumer import Consumer
 
 class CustomConsumer(Consumer):
     def setup(self):
-        self.project = '39110476-c4c2-4d14-bc31-649124db175f'
-        self.token = 'PTc77486d2a6276b3f00469f9c23096d7ee980ed1e4fb23f56'
+        self.project = ''
+        self.token = ''
         self.contexts = ['office']
 
     async def ready(self):
